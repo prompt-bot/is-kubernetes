@@ -9,7 +9,7 @@ function hasKubeEnv() {
 
 function hasServiceAccountFile() {
 	return fs.existsSync('/run/secrets/kubernetes.io/serviceaccount/token')
-      && fs.existsSync('/run/secrets/kubernetes.io/serviceaccount/namespace');
+    && fs.existsSync('/run/secrets/kubernetes.io/serviceaccount/namespace');
 }
 
 function hasClusterDns() {
