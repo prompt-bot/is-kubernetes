@@ -1,0 +1,22 @@
+{
+  "name": "is-kubernetes",
+  "version": "1.0.0",
+  "description": "Check if the process is running inside a kubernetes container",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ntfs32/is-kubernetes.git"
+  },
+  "keywords": [
+    "is-kubernetes"
+  ],
+  "author": "shaddock",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ntfs32/is-kubernetes/issues"
+  },
+  "homepage": "https://github.com/ntfs32/is-kubernetes#readme"
+}
