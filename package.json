@@ -1,11 +1,20 @@
 {
   "name": "is-kubernetes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check if the process is running inside a kubernetes container",
   "main": "index.js",
+  "bin": "cli.js",
   "scripts": {
     "test": "node ./test.js"
   },
+  "engines": {
+		"node": ">=10"
+	},
+  "files": [
+		"index.js",
+		"index.d.ts",
+		"cli.js"
+	],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/ntfs32/is-kubernetes.git"

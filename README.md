@@ -21,7 +21,7 @@ if (isKubernetes()) {
 ## CLI
 
 ```
-$ is-kubernetes
+$ npx is-kubernetes
 ```
 
-Exits with code 0 if inside a Docker container and 1 if not.
+Exits with code 0 if inside a kubernetes container and 1 if not.
